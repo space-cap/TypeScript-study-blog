@@ -1,1 +1,1 @@
-const hello = () => { "hi" }; 
+localStorage.setItem('name', 'John');
