@@ -1,1 +1,3 @@
-localStorage.setItem('name', 'John');
+import { init, exit } from "./myPackage";
+
+
