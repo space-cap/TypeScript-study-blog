@@ -1,3 +1,10 @@
+
+//@ts-check
+/**
+ * 
+ * @param {*} config 
+ * @returns 
+ */
 export function init(config) {
     return true;
 }
