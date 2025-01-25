@@ -1,3 +1,1 @@
-const hello = () => {
-    "hi";
-};
+console.log('Hello, world!');
