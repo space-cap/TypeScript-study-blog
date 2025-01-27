@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
     "start": "node build/index.js"
   },
   "keywords": [],
@@ -14,5 +15,8 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3",
     "undici-types": "^7.3.0"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9"
   }
 }
