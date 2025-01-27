@@ -1,12 +1,2 @@
-//@ts-check
-/**
- *
- * @param {*} config
- * @returns
- */
-export function init(config) {
-    return true;
-}
-export function exit(code) {
-    return code + 1;
-}
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });

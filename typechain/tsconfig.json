@@ -5,5 +5,7 @@
         "target": "ES6",
         "lib": ["ES6", "DOM"],
         "allowJs": true,
+        "moduleResolution": "nodenext",
+        "module": "nodenext",
     }
 }
