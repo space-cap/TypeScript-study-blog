@@ -7,5 +7,6 @@
         "allowJs": true,
         "moduleResolution": "nodenext",
         "module": "nodenext",
+        "esModuleInterop": true
     }
 }
