@@ -19,8 +19,12 @@ class Block implements BlockShape {
     }
 
     static calulateHash = (prevHash: string, height: number, data: string): string => {
-        const crypto = require('crypto');
+        //const crypto = require('crypto');
+        //return crypto.createHash('sha256').update(prevHash + height + data).digest('hex');
+        const hashData = prevHash + height + data;
+        return crypto.createHash("sha256").update(hashData).digest("hex");
     }
+    
 }
 
 
